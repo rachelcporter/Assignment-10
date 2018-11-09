@@ -28,13 +28,17 @@ header {
     font-size: 2rem;
     line-height: 4rem;
     margin: 0;
-    padding: 2rem;
+    padding: 2rem 3em;
 }
 div {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2rem 3rem;
+}
+div p{
+  max-width: 792px;
+  text-align: center;
 }
 #veniceItaly {
   background: #A8C4BD;
