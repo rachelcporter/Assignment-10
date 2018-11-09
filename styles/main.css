@@ -1,0 +1,70 @@
+html {
+box-sizing: border-box;
+}
+*{
+  box-sizing:inherit;
+}
+
+body {
+    font-family: Assistant, Arial, sans-serif;
+    color: #000;
+    background: #F5E5E3;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+h1, h2{
+  font-family: "Playfair Display SC", Georgia, serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    border: 3px double #000;
+}
+header {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 4rem;
+    margin: 0;
+    padding: 2rem;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 2rem 0;
+}
+#veniceItaly {
+  background: #A8C4BD;
+}
+#gucciGarden {
+  background: #BB8F75;
+}
+#capriItaly {
+  background: #DB7A4F;
+}
+@media screen and (max-width: 750px) {
+body {
+  margin: 0;
+  padding: 2rem 0;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+header {
+  font-size: 1.5rem;
+}
+#veniceItaly {
+  padding: 1rem;
+}
+#gucciGarden{
+  padding: 1rem;
+}
+#capriItaly {
+  padding: 1rem;
+}
+#cinqueTerre {
+  padding: 1rem;
+}}
